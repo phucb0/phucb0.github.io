@@ -7,34 +7,56 @@
 .header .right .oben{float:left; width:100%; min-height:30px; background-color:green; font-size:20px; padding:auto}
 .header .right .unten{width:60%; float:right; background-color: red; min-height:30px;}
 
-.navi{width:100%;float:left; height:40px; background-color:blue;}
+
+.navi{min-width:1300px;float:left; height:40px; background-color:blue;}
 .navi .topmenu{padding:0px; margin:0px;  width:100%; float:left;}
 .navi .topmenu li{float:left; line-height:40px; margin:0px; padding: 0px 15px; position:relative; list-style:none;}
 .navi .topmenu li:hover{background-color:red}
 .navi-unten{ width:100%; background-color:powderblue; min-height:30px; float:left}
 
-.main-content{float:left; width:1300px; margin:0px; background-color:black; min-height:4500px;}
+
+.main-content{float:left; width:1300px; margin:0px; background-color:black; min-height:2500px;}
 
 .main-content-left{float:left; width: 150px; min-height:500px; margin:0; background-color:darkblue}
 
-.main-content-middle{float:left; width: 1000px; min-height:4000px; margin:0; background-color:white}
-.main-content-middle-oben{float:left; width: 100%; min-height:550px; margin:0; background-color:yellow}
-.main-content-middle-oben-left{float:left; width: 60%; min-height:550px; margin:10px; background-color:red}
-.main-content-middle-oben-left .left-oben{float:left; width: 65%; min-height:350px; margin:0px; background-color:white}
-.main-content-middle-oben-left .right-oben{float:right; width: 30%; min-height:350px; margin:0px; background-color:white}
-.main-content-middle-oben-left .unten-left{float:left; width: 22%; min-height:150px; margin-top:10px; margin-right:12px; background-color:white}
-.main-content-middle-oben-left .unten-middle{float:left; width: 22%; min-height:150px; margin:12px; background-color:white}
-.main-content-middle-oben-left .unten-right{float:right; width: 22%; min-height:150px; margin-top:10px; background-color:white}
-.main-content-middle-oben-right{float:right; width: 35%; min-height:550px; margin:10px; background-color:red}
+.main-content-middle{float:left; width: 1000px; min-height:1000px; margin:0; background-color:black}
+.main-content-middle-oben{float:left; width: 100%; min-height:450px; margin:0; background-color:white}
+.main-content-middle-oben-left{float:left; width: 70%; margin:10px; min-height:550px}
+.main-content-middle-oben-left .left-oben{float:left; width: 65%; min-height:350px; margin:0px; background-color:black}
+.main-content-middle-oben-left .right-oben{float:right; width: 30%; min-height:350px; margin:0px; font-size:15px;}
+.main-content-middle-oben-left .unten-left{float:left; width: 22%; min-height:150px; margin-top:14px; margin-right:14px; background-color:white}
+.main-content-middle-oben-left .unten-left .image{float:left; width:100%; min-height:100px; background-color:black}
+.main-content-middle-oben-left .unten-left .image .title{float:left; width:100%; background-color:white}
 
-.main-content-middle-unten{float:left; width: 100%; min-height:2500px; margin:0; margin-top:10px; background-color:yellow}
-.main-content-middle-unten-left{float:left; width: 60%; min-height:2500px; margin:10px; background-color:red}
+.main-content-middle-oben-left .unten-middle{float:left; width: 22%; min-height:150px; margin:14px; background-color:white}
+.main-content-middle-oben-left .unten-middle .image{float:left; width:100%; min-height:100px; background-color:black}
+.main-content-middle-oben-left .unten-right{float:right; width: 22%; min-height:150px; margin-top:14px; background-color:white}
+.main-content-middle-oben-left .unten-right .image{float:left; width:100%; min-height:100px; background-color:black}
+.main-content-middle-oben-right{float:right; width: 25%; min-height: 550px; margin:10px; background-color:red}
+
+.main-content-middle-unten{float:left; width: 100%; min-height:1000px; margin:0; margin-top:10px; background-color:white}
+.main-content-middle-unten-left{float:left; width: 70%; min-height:2000px; margin:10px; background-color:red}
 .main-content-middle-unten-left .oben{float:left; width: 100%; min-height:600px; margin:0px; background-color:white}
 .main-content-middle-unten-left .unten{float:left; width: 100%; min-height:600px; margin:0px; margin-top:10px; background-color:white}
-.main-content-middle-unten-right{float:right; width: 35%; min-height:1500px; margin:0px; background-color:red}
+.main-content-middle-unten-right{float:right; width: 25%; min-height:1500px; margin:10px; background-color:red}
 
 .main-content-right{float:left; width: 150px; min-height:500px; margin:0; background-color:darkblue}
 
+.navi-title{width:100%;float:left; height:40px; line-height:40px; background-color:blue;}
+.ooben{float:left; width:100%; min-height:150px; background-color:white; margin:0px; }
+.ooben .left{float:left; width:38%; min-height:150px; background-color:black; margin:10px; }
+.ooben .right{float:right; width:50%; min-height:150px; background-color:yellow; margin:10px; }
+.uunten{float:left; width:100%; min-height:150px; background-color:white; margin:0px; }
+.uunten .left{float:left; width:45%; min-height:300px;margin:0px; margin-top:10px; background-color:white; margin:10px; }
+.uunten .right{float:right; width:45%; min-height:300px;margin:0px; margin-top:10px; background-color:white; margin:10px; }
+.item{float:left; background-color:white; min-height:100px; width:100%; margin:5px;}
+.item .image{background-color:black; width:30%; min-height:100px; margin:0px; float:left}
+.item .text{ background-color: white; width:60%; min-height:100px; margin:0px; float:right}
+
+.navi-bottom{width:1000px;float:left; height:40px; background-color:blue; margin:20px 150px 20px 150px}
+.navi-bottom .center{min-width:300px; min-height:40px; background-color: white; margin:auto}
+.navi-bottom .bottommenu{padding:0; margin:0;  min-width:300px;}
+.navi-bottom .bottommenu li{float:left; line-height:40px; margin:0px; padding: 0px 15px; position:relative; list-style:none;}
 
 
 </style>
