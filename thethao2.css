@@ -1,0 +1,62 @@
+<style>
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.main{width:100%}
+
+body {margin:0px}
+
+.header {max-width:1360px; width:100%; background:yellow; height:71px; margin:auto }
+
+.navi	{height:60px; max-width:1360px; width:100%; background:blue; margin:auto}
+.navi .topmenu {height:37px; width:100%; background:black;}
+.navi .topmenu .mainmenu{height:37px; margin:auto; margin-top:0px; padding:0px; max-width:977px;}
+.navi .topmenu .mainmenu li{line-height:37px; padding:0px 10px 0px; float:left; list-style:none;}
+.navi .topmenu .mainmenu li:hover{background-color:red; text-decoration:underline}
+	a {color:white; text-decoration:none}
+
+.main-background{float:left; background:black; width:100%}
+.main-content{max-width:977px; width:100%; min-height:3000px; margin:auto; margin-top:12px; background:white}
+
+.above-left{width:708px; min-height:500px; margin:0; float:left}
+.hot-news {width:453px; height:295px; background-color:blue; float:left; margin-top:12px; margin-left:12px}
+.hot-themes {margin-left:20px; margin-top:12px; float:left; height:295px; width:211px; background-color:blue}
+.hot-themes-title {height:41px; margin:0px; float:left; width:100%; background-color:gray; border-bottom:1px solid black}
+.hot-themes-with-image {margin-left:12px; margin-top:12px; float:left; width:162px; height:162px; background-color:blue}
+.hot-themes-with-image .image{margin:0px; float:left; width:162px; height:120px; background-color:yellow}
+.hot-themes-with-image .title{margin:0px; float:left; width:162px; height:42px; background-color:green}
+
+.above-right{width:269px; min-height:500px; margin:0; float:left}
+.big-advertisement-1 {margin-left: 0px; margin-top:12px; float:left; width:257px; height:267px; background-color:yellow}
+.big-advertisement-2 {margin-left: 0px; margin-top:12px; float:left; width:257px; height:200px; background-color:yellow}
+
+.left-column{width:708px; min-height:900px; margin:0; float:left; background-color:green}
+.bongda	{width:708px; min-height:400px; background-color:white; float:left; margin:0}
+.bongda-menu {width:684px; margin:12px; height:26px; background-color:blue}
+.bongda-hot-news {width:100%; height:193px; background-color:white; float:left}
+.bongda-hot-news-picture{width:260px; margin-left:15px; background-color:red; height:193px; float:left}
+.bongda-hot-news-text{background-color:red; margin-left:20px; width:401px ; height:193px; float:left }
+
+.bongda-left{width:50%; background:white; min-height:200px; float:left}
+.bongda-right{width:50%; background:white; min-height:200px; float:right}
+.bongda-news{width:100%; height:76px; float:left} 
+.bongda-news-picture{width:75px; height:58px; margin-left:12px; margin-top:18px; background-color:yellow; float:left}
+.bongda-news-topic{width: 210px ; height:58px; margin-left:20px; margin-top:18px; background-color:green; float:left}
+
+.right-column{width:269px; margin:0; float:left; background-color:red}
+.hot-topics-menu{width:100%; height:48px; background-color:darkblue}
+.hot-topic{width:100%; background-color:gray; height:77px; border-bottom:1px solid black}
+.hot-topic-picture{width:75px ;height:53px; margin: 12px; background-color:yellow; float:left}
+.big-advertisement-3 {margin-left: 0px; margin-top:12px; float:left; width:257px; height:265px; background-color:yellow}
+
+.navi-bottom {height:37px; width:100%; margin-top:12px; padding:0px; float:left; background-color: blue}
+.navi-bottom-center { height:37px; width:60%; margin:auto; margin-top:0px; padding:0px; background-color:blue}
+	ul{margin:auto}
+.navi-bottom-center ul li{line-height:37px; padding:0px 10px 0px; float:left; list-style:none;}
+.navi-bottom-center ul li:hover{background-color:red; text-decoration:underline}
+	
+
+</style>
